@@ -1,18 +1,13 @@
 .footer__copyright {
     font-size: 14px;
-    line-height: 1.1;
-    align-self: end;
-    margin: 0;
-}
-
-@media screen and (max-width: 540px) {
-    .footer__copyright {
-        align-self: start;
-    }
+    line-height: 16px;
+    text-align: right;
+    margin-top: 0;
 }
 
 @media screen and (max-width: 320px) {
     .footer__copyright {
-        line-height: 1;
+        text-align: left;
+        line-height: 14px;
     }
 }
