@@ -1,7 +1,0 @@
-.place__website {
-    display: flex;
-    flex-direction: column;
-    justify-self: start;
-    align-self: end;
-    row-gap: 12px;
-}
