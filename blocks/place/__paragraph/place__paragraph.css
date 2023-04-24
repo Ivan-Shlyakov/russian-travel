@@ -2,9 +2,10 @@
     font-size: 18px;
     line-height: 29px;
     margin: 0;
+    width: 484px;
 }
 
-.place__paragraph:nth-child(2n) {
+.place__paragraph:last-child {
     padding-top: 25px;
 }
 

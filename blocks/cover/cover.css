@@ -1,6 +1,8 @@
 .cover {
+    display: flex;
     background-image: url(../../images/cover__background.jpg);
-    background-size: 100%;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     max-width: 1184px;
     margin: 0 auto;
