@@ -2,11 +2,19 @@
     font-size: 18px;
     line-height: 29px;
     margin: 0;
-    width: 484px;
+    max-width: 484px;
+    width: 100%;
+    padding-bottom: 25px;
 }
 
 .place__paragraph:last-child {
-    padding-top: 25px;
+    padding-bottom: 0;
+}
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+        font-size: 18px;
+        line-height: 29px;
+    }
 }
 
 @media screen and (max-width: 768px) {
